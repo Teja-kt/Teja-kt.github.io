@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    display: flex;
+    background-color: rgb(89, 89, 184);
+    padding: 10px;
+    color: white;
+}
+
+.banner .title{
+    width: 80%;
+}
+
+.banner .userInfo{
+    font-style: italic;
+}
+
+#container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.loginLeft{
+    width: 700px;
+    padding: 20px;
+}
+
+.loginRight{
+    width: 300px;
+    text-align: center;
+}
+
+.loginRight input, button{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: gray;
+}
+
+.divMenu{
+    width: 20%;
+    border-right: dotted 1px;
+    padding: 2px;
+    line-height: 20px;
+}
+
+.divContent{
+    width: 80%;
+    padding: 10px;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagess{
+    width: 60px;
+    height: 60px;
+}
+
+.menu{
+    cursor: pointer;
+}
